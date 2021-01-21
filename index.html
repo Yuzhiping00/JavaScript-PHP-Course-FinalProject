@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fresh Fruit Login Page</title>
+    <!--  
+    Name: Zhiping Yu  Student Number: 000822513
+    File Created Date: 2020-12-10
+    Purpose: Display the log in form for the user to fill in. If the user has already registered
+             they can click go button to log in by entering correct username and password. If a new
+             user comes to this page, they should go to create a new account first before they can log
+             in and see the store details.
+
+    Change log: Previously, three tables are created which are user,order and product. However, in this final 
+             code, product table is deleted. So, only two tables exist which are users and shoppingcarts. There 
+             is a small change for the passwords field and the length of it has been increased to 200 in order to
+             hold the hashed password. In the shoppingcarts table, productid has been changed to 
+             product. In addition, both userid and product are the composite key. 
+               -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signin.css">
+    <!-- Load jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        // attach ready function to the document object
+        $(document).ready(function () {
+            // when user clicks the element with id account, change the style of element with id container2
+            $("#account").click(function(){
+
+                $("#container2").css({
+                margin:"auto auto",
+                width: "50%",
+                border: "1px solid rgb(165,48,120)",
+                textAlign: "center",
+                marginTop: "50px",
+                paddingTop: "25px",
+                paddingBottom : "20px"
+            });
+            // change the content in the element with different ids
+            $("#container").html("<h1>Create Your Account Here</h1>");
+            $("#label1").html("<label>UserName </label>");
+            $("#name").html("<br><input type='text' name='username'placeholder='username' required autofocus>");
+            $("#label2").html("<br><label>Password </label>");
+            $("#password").html("<br><input type='password' name='password'placeholder='password' required autofocus><br><br><br>");
+            $("#confirm").html("<input type='submit' value='Go'>").fadeTo(1000, 0.5);
+            
+            })
+        });
+    </script>
+    
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Sign in</h1>
+        </div>
+        <div id="body">
+            <form action = "store.php" method= POST>
+                <label for="username">username</label>
+                <input type="text" name="username" placeholder="username" required autofocus><br><br>
+                <label for="password">password</label>
+                <input type="password" name="password" placeholder="password" required autofocus><br><br>
+                <input type="submit" value="Log In"><br><br>
+            </form>
+            <button type="button" id="account">Create a new account</button>
+        </div>
+    </div>
+    <div id="container2">
+        <form action="createaccount.php" method="POST">
+            <div id= "label1"></div>
+            <div id="name"></div>
+            <div id="label2"></div>
+            <div id= "password"></div>
+            <div id="confirm"></div>    
+        </form>
+    </div>
+    
+</body>
+
+</html>

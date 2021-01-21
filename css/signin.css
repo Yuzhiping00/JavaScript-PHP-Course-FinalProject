@@ -1,0 +1,44 @@
+/* 
+  Name: Zhiping Yu student number: 000822513
+  File created date: 2020-12-8
+  Purpose: provide styles for different elements in the sign in page
+*/
+
+h1{
+    margin: auto auto;
+    text-align: center;
+    color: hotpink;
+    border: 2px solid peachpuff;
+    padding: 20px;
+    margin-bottom:40px;
+}
+#body{
+    margin: auto auto;
+    width: 50%;
+    border: 1px solid rgb(165, 47, 116);
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+label{
+    font-size: 30px;
+    color: blueviolet;
+    margin-right: 20px;
+}
+input{
+    height: 30px;
+    width: 300px;
+    font-size: 20px;
+}
+input[type=submit]{
+    color:rgb(5, 7, 110);
+    width: 80px;
+    background-color:rgb(202, 165, 196);
+
+}
+button{
+    font-size: 20px;
+    color:rgb(165, 47, 116);
+    margin-top: 25px;
+}

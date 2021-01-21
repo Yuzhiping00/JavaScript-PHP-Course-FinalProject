@@ -1,0 +1,79 @@
+/* 
+  Name: Zhiping Yu student number: 000822513
+  File created date: 2020-12-8
+  Purpose: provide styles for different elements in the store page
+*/
+
+#apples,#pears,#dates,#grapes,#orianges,#dragonfruits{
+    float: left;
+    margin-right: 10px; 
+    margin-left:25px;
+}
+#images{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    color:mediumblue;
+    
+}
+#add,#edit, #remove{
+    margin-right: 100px;
+    float:left;
+    margin-left:200px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#remove{
+    margin-top:40px;
+}
+#transactions{
+    clear:both;
+    border:2px solid hotpink;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom:5px;
+    font-size: 20px;
+    margin-bottom:30px;
+}
+#additem, #edititem, #removeitem{
+   
+   margin: auto auto;
+   width: 30%;
+   text-align: center;
+    
+}
+#wrapper{
+    border:1px solid black;
+    visibility: hidden;
+    width: 85%;
+    margin: auto auto;
+    padding-top:10px;
+    margin-bottom: 30px;
+
+}
+#summary{
+    margin-left: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+#check[type=submit]{
+    padding:10px;
+    border-radius: 20px;
+    color:slateblue;
+    font-size: 15px;
+}
+h1{
+    margin: auto auto;
+    text-align: center;
+    color: hotpink;
+    border: 2px solid peachpuff;
+    padding: 20px;
+    margin-bottom:40px;
+}
+
+a{
+    font-size: 25px;
+    color:blueviolet;
+
+}
+ 

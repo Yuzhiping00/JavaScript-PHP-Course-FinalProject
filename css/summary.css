@@ -1,0 +1,44 @@
+/* 
+  Name: Zhiping Yu student number: 000822513
+  File created date: 2020-12-8
+  Purpose: provide styles for different elements in the shopping cart summary page
+*/
+
+
+h1{
+    margin: auto auto;
+    text-align: center;
+    color: hotpink;
+    border: 2px solid peachpuff;
+    padding: 20px;
+    margin-bottom:40px;
+}
+p{
+    margin: auto auto;
+    text-align: center;
+    font-size: 25px;
+    color:mediumblue;
+}
+#details{
+    
+    margin-top: 60px;
+    padding: 15px;
+    margin-top: 20px;
+}
+#images {
+    text-align: center;
+    margin: auto auto;
+    width: 80%;
+   
+}
+img{
+    width : 300px;
+    height:300px;
+    margin: auto auto;
+    margin-right: 20px;
+}
+a{
+    font-size: 25px;
+    color:blueviolet;
+
+}
