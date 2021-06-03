@@ -1,7 +1,6 @@
 <?php
  /**
  * Name: Zhiping Yu student number: 000822513
- *aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
  * File created date: 2020-12-8
  * Purpose: Use session management to check if user has logged in successfully. if so,
  *          provide the summary of the user's shopping cart including products name and 
